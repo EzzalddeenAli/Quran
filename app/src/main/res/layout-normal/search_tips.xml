@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/chapters_fragment_margins">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Search Tips"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tips_heading"
+        android:textColor="@color/black"
+        android:textSize="@dimen/chapters_fragment_text_size_list_verses_name"
+        android:layout_marginTop="@dimen/fragment_chapters_search_bookmarks_font_margin_top_bottom"
+        android:layout_marginBottom="@dimen/fragment_chapters_search_bookmarks_font_margin_left_right"
+        android:layout_marginLeft="@dimen/fragment_chapters_search_bookmarks_font_margin_left_right"
+        android:layout_marginRight="@dimen/fragment_chapters_search_bookmarks_font_margin_left_right" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Use the button to pic either W (Word Search) or S (Sentence Search)"
+        android:layout_below="@+id/tips_heading"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tips_one"
+        android:textColor="@color/black"
+        android:textSize="@dimen/chapters_fragment_text_size_list_verses_name"
+        android:layout_marginTop="@dimen/fragment_chapters_search_bookmarks_font_margin_top_bottom"
+        android:layout_marginBottom="@dimen/fragment_chapters_search_bookmarks_font_margin_left_right"
+        android:layout_marginLeft="@dimen/fragment_chapters_search_bookmarks_font_margin_left_right"
+        android:layout_marginRight="@dimen/fragment_chapters_search_bookmarks_font_margin_left_right" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="1. W (Word/s Search) - Search through the Quran using multiple words or singular word search."
+        android:layout_below="@+id/tips_one"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tips_two"
+        android:textColor="@color/black"
+        android:textSize="@dimen/chapters_fragment_text_size_list_verses_name"
+        android:layout_marginTop="@dimen/fragment_chapters_search_bookmarks_font_margin_top_bottom"
+        android:layout_marginBottom="@dimen/fragment_chapters_search_bookmarks_font_margin_left_right"
+        android:layout_marginLeft="@dimen/fragment_chapters_search_bookmarks_font_margin_left_right"
+        android:layout_marginRight="@dimen/fragment_chapters_search_bookmarks_font_margin_left_right" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="2. S (Sentence Search) - Search the Quran for a sentence, match against a particular sentence you are looking for."
+        android:layout_below="@+id/tips_two"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tips_three"
+        android:textColor="@color/black"
+        android:textSize="@dimen/chapters_fragment_text_size_list_verses_name"
+        android:layout_marginTop="@dimen/fragment_chapters_search_bookmarks_font_margin_top_bottom"
+        android:layout_marginBottom="@dimen/fragment_chapters_search_bookmarks_font_margin_left_right"
+        android:layout_marginLeft="@dimen/fragment_chapters_search_bookmarks_font_margin_left_right"
+        android:layout_marginRight="@dimen/fragment_chapters_search_bookmarks_font_margin_left_right" />
+</RelativeLayout>

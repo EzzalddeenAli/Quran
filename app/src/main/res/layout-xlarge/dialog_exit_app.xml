@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/demo_dialog_background"
+    android:layout_gravity="center_horizontal">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginTop="@dimen/demo_margin_top_text"
+        android:textColor="@color/white"
+        android:id="@+id/exit_text_view"
+        android:textSize="@dimen/demo_margin_top_text_size"
+        android:letterSpacing="1.5"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/exit_text_view"
+        android:layout_marginTop="@dimen/demo_margin_top_button"
+        android:layout_marginBottom="@dimen/demo_margin_top_text_size">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/red"
+            android:textColor="@color/black"
+            android:id="@+id/cancel_button_view"
+            android:textSize="@dimen/demo_margin_top_button_size"
+            android:layout_toLeftOf="@+id/gap" />
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="2dp"
+            android:background="@android:color/transparent"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/gap">
+        </View>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/red"
+            android:textColor="@color/black"
+            android:id="@+id/exit_button_view"
+            android:textSize="@dimen/demo_margin_top_button_size"
+            android:layout_toRightOf="@+id/gap"/>
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chapters_list_background_colors"
+    android:gravity="center_vertical"
+    android:layout_gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/txtDataChapters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white_off"
+        android:letterSpacing="1.5"
+        android:textSize="@dimen/chapters_and_menu_lists_text_view_size"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/chaptersdata_left_margin"
+        android:layout_marginTop="@dimen/chaptersdata_and_menu_topandbottom_margin"
+        android:layout_marginBottom="@dimen/chaptersdata_and_menu_topandbottom_margin"
+        android:gravity="center_vertical" />
+
+</RelativeLayout>
